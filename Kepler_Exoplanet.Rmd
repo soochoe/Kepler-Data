@@ -3,7 +3,6 @@ Data Science Project
 title of dataset: "Kepler Exoplanet Search Results"
 source: Kaggle -  https://www.kaggle.com/nasa/kepler-exoplanet-search-results 
 authors: Matthew Bazzo, Soo Hyung Choe, Shiming Yan, Alex Zhang 
-course: Introductory to Data Science
 ---
 
 # Introduction
@@ -12,8 +11,7 @@ The following dataset features 9564 observations, and 50 variables (12 categoric
 
 We thought of many different questions and performed supervised and unsupervised learning to the dataset in order to find a solution to our questions. 
 
-
-As mentioned in class, "The Data Science Process is about observation, model building, analysis and conclusion"
+"The Data Science Process is about observation, model building, analysis and conclusion"
 We thoroughly followed the data science process as shown below: 
 1. Ask questions and identify the problem
 2. Data Collection
