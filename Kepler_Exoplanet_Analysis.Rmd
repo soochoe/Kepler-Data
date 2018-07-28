@@ -579,7 +579,7 @@ misclassification_rate = error/sizeTestSet
 print(misclassification_rate)
 ```
 
-The randomforest model had a lower misclassification rate than the decision tree. As we learned in class, decision trees are prone to overfitting. Randomforest models mititages overfitting and can lead to more accurate classification and prediction which is seen in this case. 
+The randomforest model had a lower misclassification rate than the decision tree. Decision trees are prone to overfitting. Randomforest models mititages overfitting and can lead to more accurate classification and prediction which is seen in this case. 
 
 ### KNN Model
 
@@ -1005,11 +1005,11 @@ It was difficult to make comments on the categorization scheme developed via k-m
 
 We'll conclude the unsupervised learning and analysis here and leave the in-depth research on the categories above for a later time.
 
-#Conclusion 
+# Conclusion 
 
 After conducting EDA, supervised and unsupervised learning on the Kepler Dataset, we were able to learn a lot about this unfamiliar topic and formulate many conclusions. To reiterate, the questions we asked and key takeaways are shown below: 
 
-#EDA
+## EDA
 
 1) Are binary stars more likely to host planets?
 2) What are the feature distributions of likely habitable planets?
@@ -1020,7 +1020,7 @@ After conducting EDA, supervised and unsupervised learning on the Kepler Dataset
 When conductory an exploratory data anaylsis, we learned from Q1 that binary stars have a much smaller proportion of likely planets encircling them than do single stars, and this is seen in both the Kepler analysis labels and literature labels. From Q2, it appears that all the Earth-like planets in the dataset are considerably warmer than the Earth. From Q3, we noticed that sky-projected distance is very weakly, and essentially uncorrelated, with any other features of interest describing either the planet or the host star. From Q4, we realized that most of the stars that host Earth-like planets seem to be smaller, cooler, and have larger surface accelerations when comapred to our Sun. Last in EDA, we noticed that the observations corresponding to Earth-like planets are spread out accross the patches of celestial coordinates observed by Kepler.
 
 
-#Supervised Learning
+## Supervised Learning
 
 1) Can we determine the classification system for exoplanet candidates (koi_disposition)? 
 
@@ -1034,7 +1034,7 @@ For this question we conducted the following data science models and the misclas
 The RandomForest model was clearly the most accurate model with the lowest misclassification rate of 10%. From the decision tree, we noticed that the most important factors for determining the classification of a planet were the false positive flags. Hopefully, with this 10% classification rate, this data science model could save time and resources for NASA when they are confirming planets. 
 
 
-#Unsupervised Learning 
+## Unsupervised Learning 
 
 1) K-Means Clustering: Planet Categorization
 
