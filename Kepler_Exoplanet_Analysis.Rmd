@@ -87,20 +87,15 @@ koi_disposition has two categories and koi_pdisposition has three categories. Th
 
 ```{r}
 Data1 <- subset(starData, koi_disposition =="CONFIRMED" & koi_pdisposition =="CANDIDATE")
-
 ```
 ```{r}
 Data2 <- subset(starData, koi_disposition =="CONFIRMED" & koi_pdisposition =="FALSE POSITIVE")
- 
 ```
 ```{r}
 Data3 <- subset(starData, koi_disposition =="CANDIDATE" & koi_pdisposition =="CANDIDATE")
-
-
 ```
 ```{r}
 Data4 <- subset(starData, koi_disposition =="CANDIDATE" & koi_pdisposition =="FALSE POSITIVE")
-
 ```
 ```{r}
 Data5 <- subset(starData, koi_disposition =="FALSE POSITIVE" & koi_pdisposition =="CANDIDATE")
